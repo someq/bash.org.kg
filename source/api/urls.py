@@ -4,7 +4,7 @@ from .views import QuoteViewSet
 
 
 router = DefaultRouter()
-router.register('quote', QuoteViewSet)
+router.register('quote', QuoteViewSet, basename='quote')
 
 
 app_name = 'api'
